@@ -114,6 +114,26 @@ if ($texto != "") {
                                 </div>  
                                 <br>  
                             </div>
+                            <div class="col-lg-12">
+                                <br>
+
+                                <table class="table table-striped table-bordered table-condensed table-hover">
+                                    <br>
+                                    <label>Serologia anteriores</label>
+                                    <tr>
+                                        <td>Nro. donacion</td><td>Fecha</td><td>Institucion</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>1</td><td>14/06/2012</td><td>Departamento COCYFAHER.</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>2</td><td>03/02/2013</td><td>Departamento COCYFAHER.</td>
+                                    </tr>
+                                </table>   
+                                
+                            </div>
                         </div>
 
                     </div> 
