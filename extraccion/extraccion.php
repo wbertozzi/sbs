@@ -34,7 +34,15 @@
                                         <option value="tipo2">Tipo 2</option>
                                     </select> 
                                 </div>                                  
-                                <br>                                
+                                <br>  
+                                <div class="input-group">
+                                    <span class="input-group-addon">Marca bolsa</span>
+                                    <select class="selectpicker" name="marcabolsa">
+                                        <option value="marca1">Marca 1</option>
+                                        <option value="marca2">Marca 2</option>
+                                    </select> 
+                                </div>                                  
+                                <br> 
                                 <div class="input-group">
                                     <span class="input-group-addon">Numero de Lote</span>
                                     <input class="form-control" type="text" name="nrobolsa" placeholder="Numero de lote de bolsa" alt="Numero de bolsa" title="Numero de bolsa">                                
@@ -51,11 +59,6 @@
                                             <span class="input-group-addon">20 min.</span>
                                         </div>                                        
                                     </div>
-                                    <!--                                    <div class="col-lg-5">
-                                                                            <div class="input-group">
-                                                                                <label>20 minutos</label>
-                                                                            </div>                                        
-                                                                        </div>                                                             -->
                                 </div>
                                 <br>  
                                 <div class="input-group">
@@ -65,7 +68,19 @@
                                         <option value="izquierdo">Izquierdo</option>
                                     </select> 
                                 </div> 
-                                <br>                                 
+                                <br>
+                                <div class="input-group">
+                                    <span class="input-group-addon">Tolerancia al Procedimiento</span>
+                                    <select class="selectpicker">
+                                        <option value="buena">Buena</option>
+                                        <option value="regular">Regular</option>
+                                        <option value="mala">Mala</option>                                        
+                                    </select> 
+                                </div>
+                                <br>
+
+                            </div>
+                            <div class="col-lg-4">                               
                                 <div class="input-group">
                                     <span class="input-group-addon">Dificultad en la extraccion</span>
                                     <select class="selectpicker">
@@ -74,15 +89,19 @@
                                     </select> 
                                 </div> 
                                 <br>                                 
-                            </div>
-                            <div class="col-lg-4">                               
                                 <div class="input-group">
-                                    <span class="input-group-addon">Tolerancia al Procedimiento</span>
+                                    <span class="input-group-addon">Tipo dificultad extraccion</span>
                                     <select class="selectpicker">
-                                        <option value="buena">Buena</option>
-                                        <option value="regular">Regular</option>
-                                        <option value="mala">Mala</option>                                        
+                                        <option value="tipo1">Tipo 1</option>
+                                        <option value="tipo2">Tipo 2</option>
                                     </select> 
+                                </div>
+                                <br> 
+
+
+                                <div class="input-group">
+                                    <span class="input-group-addon">Observacion dificultad extraccion</span>
+                                    <textarea class="form-control"  name="observacion" alt="Observacion" title="Observacion">Observacion</textarea>                                    
                                 </div>
                                 <br>     
                                 <div class="input-group">
@@ -105,16 +124,7 @@
                                 </div>
 
                                 <br>                                
-                                <!--                                <div class="input-group">
-                                                                    <span class="input-group-addon">Peso de la bolsa</span>
-                                                                    <input class="form-control" type="number" name="pesobolsa" placeholder="Peso de la bolsa" alt="Peso de la bolsa" title="Peso de la bolsa">                                
-                                                                </div>  
-                                                                <br>                                     -->
-                                <div class="input-group">
-                                    <span class="input-group-addon">Hora de extraccion</span>
-                                    <input class="form-control" type="datetime" name="horaext" placeholder="Hora de extraccion" alt="Hora de extraccion" title="Hora de extraccion">                                
-                                </div>  
-                                <br>                                 
+
                             </div>
                             <div class="col-lg-4">   
                                 <div class="input-group">
@@ -140,6 +150,17 @@
                                         <option value="mayor15">Mayor 15 min.</option>                                       
                                     </select> 
                                 </div> 
+                                <br> 
+                                <div class="input-group">
+                                    <span class="input-group-addon">Peso de la bolsa</span>
+                                    <input class="form-control" type="number" name="pesobolsa" placeholder="Peso de la bolsa" alt="Peso de la bolsa" title="Peso de la bolsa">                                
+                                </div>  
+                                <br>                                     
+                                <div class="input-group">
+                                    <span class="input-group-addon">Hora de extraccion</span>
+                                    <input class="form-control" type="datetime" name="horaext" placeholder="Hora de extraccion" alt="Hora de extraccion" title="Hora de extraccion">                                
+                                </div>  
+
                                 <br>                                                                
                             </div>
                         </div>
@@ -152,6 +173,6 @@
                     <br>
                 </form>
             </div>   
-           
+
     </body>
 </html>

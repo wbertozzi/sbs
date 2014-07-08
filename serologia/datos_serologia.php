@@ -26,7 +26,7 @@ if (isset($_POST['Aceptar']) && $_POST['Aceptar'] == 'Aceptar' &&
             <div id="cuerpo">
                 <div class="page-header">
                     <br>    
-                    <h1>Inmunohematolog&iacute;a</h1>  
+                    <h1>Serolog&iacute;a</h1>  
                     <br>
                 </div>
                 <div class="col-lg-12">
@@ -79,12 +79,12 @@ if (isset($_POST['Aceptar']) && $_POST['Aceptar'] == 'Aceptar' &&
             <div id="cuerpo">
                 <div class="page-header">
                     <br>    
-                    <h1>Inmunohematolog&iacute;a</h1>  
+                    <h1>Serolog&iacute;a</h1>  
                     <br>
                 </div>             
                 <form action="" id="recepcion" name="recepcion" class="carga"> 
                     <div class="panel panel-default">
-                        <div class="panel-heading">Datos de Inmunohematolog&iacute;a de Pablo Cabrol</div>
+                        <div class="panel-heading">Datos de Serolog&iacute;a de Pablo Cabrol</div>
                         <div class="panel-heading">Numero: 14000895</div>
                         <div class="panel-body">
                             <div class="col-lg-4">

@@ -22,7 +22,7 @@
             <div id="cuerpo">
                 <div class="page-header">
                     <br>    
-                    <h1>Inmunohematolog&iacute;a</h1>  
+                    <h1>Serolog&iacute;a</h1>  
                     <br>
                 </div>
                 <form action="javascript: fn_buscar();" id="frm_buscar" name="frm_buscar" method="post">                         

@@ -23,39 +23,39 @@
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Recepcion <span class="caret"></span></a>
                     <ul class="dropdown-menu" role="menu">
-                        <li><a href="../recepcion/datosPaciente.php">2-1 - Datos paciente</a></li>
+                        <li><a href="../recepcion/datos_paciente.php">2-1 - Datos paciente</a></li>
                     </ul>
                 </li>                
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Entrevista <span class="caret"></span></a>
                     <ul class="dropdown-menu" role="menu">
                         <li><a href="../entrevista/cuestionario.php">3-1 - Cuestionario</a></li>
-                        <li><a href="../entrevista/datosClinicos.php">3-2 - Datos Clinicos</a></li>
+                        <li><a href="../entrevista/datos_clinicos.php">3-2 - Datos Clinicos</a></li>
                         <li><a href="../entrevista/diferido.php">3-3 - Diferido</a></li>
-                        <li><a href="../entrevista/avisoDonantes.php">3-4 - Donantes en espera</a></li>
+                        <li><a href="../entrevista/aviso_donantes.php">3-4 - Donantes en espera</a></li>
                     </ul>
                 </li>
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Extraccion <span class="caret"></span></a>
                     <ul class="dropdown-menu" role="menu">
-                        <li><a href="../extraccion/avisoDonantes.php">4-1 - Donantes en espera</a></li>
+                        <li><a href="../extraccion/aviso_donantes.php">4-1 - Donantes en espera</a></li>
                         <li><a href="../extraccion/extraccion.php">4-2 - Extraccion</a></li>
                     </ul>
                 </li> 
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Inmunohematologia <span class="caret"></span></a>
                     <ul class="dropdown-menu" role="menu">
-                        <li><a href="../inmunohematologia/buscarInmuno.php">5-1 - Buscar Inmunohematologia</a></li>
-                        <li><a href="../inmunohematologia/avisoInmuno.php">5-2 - Inmunohematologia en Espera</a></li>
+                        <li><a href="../inmunohematologia/buscar_inmuno.php">5-1 - Buscar Inmunohematologia</a></li>
+                        <li><a href="../inmunohematologia/aviso_inmuno.php">5-2 - Inmunohematologia en Espera</a></li>
                         <li><a href="../inmunohematologia/datos_inmuno.php">5-3 - Inmunohematologia</a></li>
                     </ul>
                 </li>
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Serologia <span class="caret"></span></a>
                     <ul class="dropdown-menu" role="menu">
-                        <li><a href="../serologia/buscarSerologia.php">6-1 - Buscar Serologia</a></li>
-                        <li><a href="../serologia/avisoSerologia.php">6-2 - Serologia en Espera</a></li>
-                        <li><a href="../serologia/datos_Serologia.php">6-3 - Serologia</a></li>
+                        <li><a href="../serologia/buscar_serologia.php">6-1 - Buscar Serologia</a></li>
+                        <li><a href="../serologia/aviso_serologia.php">6-2 - Serologia en Espera</a></li>
+                        <li><a href="../serologia/datos_serologia.php">6-3 - Serologia</a></li>
                     </ul>
                 </li>
                 <li class="dropdown">
