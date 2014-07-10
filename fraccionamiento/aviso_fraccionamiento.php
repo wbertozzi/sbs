@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>    
-    <title>SISTEMA DE BANCO DE SANGRE - Aviso nuevas Serolog&iacute;as</title>
+    <title>SISTEMA DE BANCO DE SANGRE - Aviso nuevas Fraccionamientos</title>
     <link rel="shortcut icon" href="../images/ingreso.ico" />    
     <?php include_once '../include/header.php'; ?>        
 </head>
@@ -11,16 +11,16 @@
         <div id="cuerpo">
             <div class="page-header">
                 <br>    
-                <h1>Serolog&iacute;as Pendientes</h1> 
+                <h1>Fraccionamientos Pendientes</h1> 
                 <br>
             </div>                                    
                 <form action="" id="recepcion" name="recepcion" class="carga"> 
                     <div class="resultado">
                         <fieldset>
-                            <legend>SEROLOGIA EN ESPERA</legend>
+                            <legend>FRACCIONAMIENTOS EN ESPERA</legend>
                                 <table class="table table-striped table-bordered table-condensed table-hover">
                                 <br>
-                                <label>Serolog&iacute;as en Espera</label>
+                                <label>Fraccionamientos en Espera</label>
                                 <tr>
                                     <td>Orden</td><td>Nro. donacion</td><td>Fecha</td><td>Tipo donante</td><td>Estado</td><td>Iniciar</td>
                                 </tr>
