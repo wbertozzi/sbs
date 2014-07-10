@@ -39,7 +39,7 @@ if (isset($_POST['Aceptar']) && $_POST['Aceptar'] == 'Aceptar' &&
                     <form action="javascript: fn_buscar();" id="frm_buscar" name="frm_buscar" method="post">                         
                         <div class="panel-body">
                             <div class="input-group">
-                                <span class="input-group-addon">DNI</span>
+                                <span class="input-group-addon">Numero de Donación</span>
                                 <input class="form-control" type="number" id="buscarNumeroD" name="buscarNumeroD" alt="buscarNumeroD" title="buscarNumeroD">                                
                             </div> 
 

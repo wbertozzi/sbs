@@ -30,9 +30,12 @@
                         <div class="input-group">
                             <span class="input-group-addon">Numero Donacion</span>
                             <input class="form-control" type="number" id="buscarNumeroD" name="buscarNumeroD" alt="buscarNumeroD" title="buscarNumeroD">                                
+                            <span class="input-group-btn">
+                                <input class="btn btn-primary" value="Buscar" type="submit" name="Buscar" id="Buscar" placeholder="Buscar" alt="Buscar" title="Buscar" />
+                            </span> 
                         </div> 
 
-                        <input class="btn btn-primary" value="Buscar" type="submit" name="Buscar" id="Buscar" placeholder="Buscar" alt="Buscar" title="Buscar" />                                
+                                                        
                     </div>
                 </form>
                 <div id="aqui">
