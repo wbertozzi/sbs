@@ -30,7 +30,7 @@ if ($texto != "") {
                                 </div>                                  
                                 <br>   
                                 <div class="input-group">
-                                    <span class="input-group-addon">Factor RH</span>
+                                    <span class="input-group-addon">Sifilis</span>
                                     <select class="selectpicker" name="factorRH">
                                         <option value="rhPositivo">positivo</option>
                                         <option value="rhNegativo">negativo</option>
@@ -38,7 +38,7 @@ if ($texto != "") {
                                 </div>                                  
                                 <br>
                                 <div class="input-group">
-                                    <span class="input-group-addon">DU</span>
+                                    <span class="input-group-addon">Chagas</span>
                                     <select class="selectpicker" name="du">
                                         <option value="duPositivo">positivo</option>
                                         <option value="duNegativo">negativo</option>
@@ -46,7 +46,7 @@ if ($texto != "") {
                                 </div>                                  
                                 <br>
                                 <div class="input-group">
-                                    <span class="input-group-addon">CDE</span>
+                                    <span class="input-group-addon">Hepatitis B</span>
                                     <select class="selectpicker" name="cde">
                                         <option value="cdePositivo">positivo</option>
                                         <option value="cdeNegativo">negativo</option>

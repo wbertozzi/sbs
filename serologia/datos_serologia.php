@@ -88,38 +88,48 @@ if (isset($_POST['Aceptar']) && $_POST['Aceptar'] == 'Aceptar' &&
                         <div class="panel-heading">Numero: 14000895</div>
                         <div class="panel-body">
                             <div class="col-lg-4">
-
+                                <?php
+                                //se inicializa la variable con un munero aleatorio
+                                $tokenINM = md5(uniqid(rand(), true));
+                                // Se guarda el token en la sesin
+                                $_SESSION['tokenINM'] = $tokenINM;
+                                // Se guarda el token como un componente oculto en el formulario
+                                echo "<input type='hidden' name='tokenINM' value=" . $tokenINM . " />";
+                                // Se muestran los campos de login dentro de una tabla
+                                ?>
                                 <div class="input-group">
-                                    <span class="input-group-addon">Grupo Sanguineo</span>
+                                    <span class="input-group-addon">HIV</span>
                                     <select class="selectpicker" name="grupoSang">
-                                        <option value="A">A</option>
-                                        <option value="B">B</option>
-                                        <option value="AB">AB</option>
-                                        <option value="0">0</option>
+                                        <option value="rhNegativo">negativo</option>
+                                        <option value="rhPositivo">positivo</option>
+                                        
                                     </select> 
                                 </div>                                  
                                 <br>   
                                 <div class="input-group">
-                                    <span class="input-group-addon">Factor RH</span>
+                                    <span class="input-group-addon">Sifilis</span>
                                     <select class="selectpicker" name="factorRH">
-                                        <option value="rhPositivo">positivo</option>
                                         <option value="rhNegativo">negativo</option>
+                                        <option value="rhPositivo">positivo</option>
+                                        
                                     </select> 
                                 </div>                                  
                                 <br>
                                 <div class="input-group">
-                                    <span class="input-group-addon">DU</span>
+                                    <span class="input-group-addon">Chagas</span>
                                     <select class="selectpicker" name="du">
-                                        <option value="duPositivo">positivo</option>
                                         <option value="duNegativo">negativo</option>
+                                        <option value="duPositivo">positivo</option>
+                                        
                                     </select> 
                                 </div>                                  
                                 <br>
                                 <div class="input-group">
-                                    <span class="input-group-addon">CDE</span>
+                                    <span class="input-group-addon">Hepatitis B</span>
                                     <select class="selectpicker" name="cde">
-                                        <option value="cdePositivo">positivo</option>
                                         <option value="cdeNegativo">negativo</option>
+                                        <option value="cdePositivo">positivo</option>
+                                        
                                     </select> 
                                 </div>                                  
                                 <br>
@@ -127,61 +137,50 @@ if (isset($_POST['Aceptar']) && $_POST['Aceptar'] == 'Aceptar' &&
 
 
                             </div>
-                            <div class="col-lg-4">   
+                            <div class="col-lg-8">   
 
                                 <div class="input-group">
-                                    <span class="input-group-addon">Comms Directa</span>
-                                    <select class="selectpicker" name="commsDir">
-                                        <option value="cdPositivo">positivo</option>
-                                        <option value="cdNegativo">negativo</option>
-                                    </select> 
-                                </div>                                  
-                                <br>
-                                <div class="input-group">
-                                    <span class="input-group-addon">Comms Indirecta</span>
-                                    <select class="selectpicker" name="commsInd">
-                                        <option value="ciPositivo">positivo</option>
-                                        <option value="ciNegativo">negativo</option>
-                                    </select> 
-                                </div>                                  
-                                <br>
-                                <div class="input-group">
-                                    <span class="input-group-addon">Anticuerpo</span>
-                                    <select class="selectpicker" name="anticuerpo">
-                                        <option value="anPositivo">positivo</option>
-                                        <option value="anNegativo">negativo</option>
-                                    </select> 
-                                </div>                                  
-                                <br>
-                            </div>
-                            <div class="col-lg-4">
-                                <div class="input-group">
-                                    <span class="input-group-addon">Anticuerpo Encontrado</span>
+                                    <span class="input-group-addon">Protocolo HIV</span>
                                     <input class="form-control" type="text" name="anticuerpoEnc" placeholder="Anticuerpo Encontrado" alt="Anticuerpo Encontrado" title="Anticuerpo Encontrado">                                
                                 </div> 
-                                <br>
-                                <div class="input-group">
-                                    <span class="input-group-addon">Hemolisina</span>
-                                    <select class="selectpicker" name="hemolisina">
-                                        <option value="hemPositivo">positivo</option>
-                                        <option value="hemNegativo">negativo</option>
-                                    </select> 
-                                </div>                                  
-                                <br>
-                                <div class="input-group">
-                                    <span class="input-group-addon">Estado Inmuno</span>
-                                    <select class="selectpicker" name="anticuerpo">
-                                        <option value="eiTerminado">Terminado</option>
-                                        <option value="eiPendiente">Pendiente</option>
-                                    </select> 
-                                </div>                                  
-                                <br>
-                                <div class="input-group">
-                                    <span class="input-group-addon">Observacion</span>
-                                    <textarea class="form-control"  name="observacion" alt="Observacion" title="Observacion">Observacion</textarea>                                    
-                                </div>  
-                                <br>  
+                                <br />
+                                 <div class="input-group">
+                                    <span class="input-group-addon">Protocolo Sifilis</span>
+                                    <input class="form-control" type="text" name="anticuerpoEnc" placeholder="Anticuerpo Encontrado" alt="Anticuerpo Encontrado" title="Anticuerpo Encontrado">                                
+                                </div> 
+                                <br />
+                                 <div class="input-group">
+                                    <span class="input-group-addon">Protocolo Chagas</span>
+                                    <input class="form-control" type="text" name="anticuerpoEnc" placeholder="Anticuerpo Encontrado" alt="Anticuerpo Encontrado" title="Anticuerpo Encontrado">                                
+                                </div> 
+                                <br />
+                                 <div class="input-group">
+                                    <span class="input-group-addon">Protocolo Hepatitis B</span>
+                                    <input class="form-control" type="text" name="anticuerpoEnc" placeholder="Anticuerpo Encontrado" alt="Anticuerpo Encontrado" title="Anticuerpo Encontrado">                                
+                                </div> 
+                                
                             </div>
+                            <div class="col-lg-12">
+                                <br>
+
+                                <table class="table table-striped table-bordered table-condensed table-hover">
+                                    <br>
+                                    <label>Serologias anteriores</label>
+                                    <tr>
+                                        <td>Nro. donacion</td><td>Fecha</td><td>Institucion</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>1</td><td>14/06/2012</td><td>Departamento COCYFAHER.</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>2</td><td>03/02/2013</td><td>Departamento COCYFAHER.</td>
+                                    </tr>
+                                </table>   
+                                
+                            </div>
+                           
                         </div>
 
                     </div> 
