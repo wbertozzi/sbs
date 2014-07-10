@@ -3,10 +3,11 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/xampp/htdocs/sbs/serologia/aviso_serologia.php</file>
-            <file>file:/C:/xampp/htdocs/sbs/serologia/buscar_serologia.php</file>
-            <file>file:/C:/xampp/htdocs/sbs/serologia/ajax_buscar.php</file>
-            <file>file:/C:/xampp/htdocs/sbs/serologia/datos_serologia.php</file>
+            <file>file:/C:/xampp/htdocs/sbs/fraccionamiento/ajax_buscar.php</file>
+            <file>file:/C:/xampp/htdocs/sbs/fraccionamiento/buscar_bolsa.php</file>
+            <file>file:/C:/xampp/htdocs/sbs/fraccionamiento/aviso_fraccionamiento.php</file>
+            <file>file:/C:/xampp/htdocs/sbs/fraccionamiento/datos_bolsa.php</file>
+            <file>file:/C:/xampp/htdocs/sbs/include/menu.php</file>
         </group>
     </open-files>
 </project-private>
