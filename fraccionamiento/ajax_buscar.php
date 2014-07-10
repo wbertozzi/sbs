@@ -8,7 +8,7 @@ if ($texto != "") {
                 ?>
                 <form action="datos_inmuno.php" id="recepcion" name="recepcion" class="carga" method="post"> 
                     <div class="panel panel-default">
-                        <div class="panel-heading">Datos de Inmunohematolog&iacute;a de Pablo Cabrol</div>
+                        <div class="panel-heading">Datos de Fraccionamiento de Pablo Cabrol</div>
                         <div class="panel-heading">Numero: 14000895</div>
                         <div class="panel-body">
                                 <div class="col-lg-3">
@@ -27,6 +27,7 @@ if ($texto != "") {
                                             <option value="rhNegativo">negativo</option>
                                             <option value="rhPositivo">positivo</option>
 
+                                            
                                         </select> 
                                     </div>                                  
                                     <br>   
@@ -201,7 +202,7 @@ if ($texto != "") {
                 ?>
                 <form action="datos_inmuno.php" id="recepcion" name="recepcion" class="carga" method="post"> 
                     <div class="panel panel-default">
-                        <div class="panel-heading">Datos de Inmunohematolog&iacute;a de Wilfredo Bertozzi</div>
+                        <div class="panel-heading">Datos de Fraccionamiento de Wilfredo Bertozzi</div>
                         <div class="panel-heading">Numero: 14000895</div>
                         <div class="panel-body">
                                 <div class="col-lg-3">
