@@ -22,12 +22,10 @@ if ($texto != "") {
                                 // Se muestran los campos de login dentro de una tabla
                                 ?>
                                 <div class="input-group">
-                                    <span class="input-group-addon">Grupo Sanguineo</span>
+                                    <span class="input-group-addon">HIV</span>
                                     <select class="selectpicker" name="grupoSang">
-                                        <option value="A">A</option>
-                                        <option value="B">B</option>
-                                        <option value="AB">AB</option>
-                                        <option value="0">0</option>
+                                        <option value="rhPositivo">positivo</option>
+                                        <option value="rhNegativo">negativo</option>
                                     </select> 
                                 </div>                                  
                                 <br>   
