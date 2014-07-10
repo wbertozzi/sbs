@@ -61,11 +61,12 @@
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Fraccionamiento <span class="caret"></span></a>
                     <ul class="dropdown-menu" role="menu">
-                        <li><a href="#">7-1 - Ingreso Bolsa</a></li>
-                        <li><a href="#">7-2 - Plasma</a></li>
-                        <li><a href="#">7-3 - Plaqueta</a></li>
-                        <li><a href="#">7-4 - Globulo</a></li>
-                        <li><a href="#">7-5 - Criopresipitado</a></li>
+                        <li><a href="../fraccionamiento/buscar_bolsa.php">7-1 - Buscar Bolsa</a></li>
+                        <li><a href="#">7-2 - Ingreso Bolsa</a></li>
+                        <li><a href="#">7-3 - Plasma</a></li>
+                        <li><a href="#">7-4 - Plaqueta</a></li>
+                        <li><a href="#">7-5 - Globulo</a></li>
+                        <li><a href="#">7-6 - Criopresipitado</a></li>
                     </ul>
                 </li>
                 <li class="dropdown">
